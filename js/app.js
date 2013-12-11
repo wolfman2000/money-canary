@@ -1,0 +1,1 @@
+var moneyCanaryApp = angular.module('moneyCanaryApp', ['ngRoute']);
