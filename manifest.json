@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Money-Canary",
+  "version": "0.0.1",
+  "default_locale": "en",
+  "description": "An attempt at a flexible board game recreation involving money, mortgages, and moments of agony.",
+  "permissions": [],
+  "author": "Jason Felds",
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  },
+  "minimum_chrome_version": "23"
+
+}
