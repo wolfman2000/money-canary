@@ -4,7 +4,7 @@
  * 
  */
 
-var dice = angular.module('ngDice',[])
+var dice = angular.module('mcDice',[])
 
 dice.factory('simpleRngFactory', SimpleRngFactory);
 
