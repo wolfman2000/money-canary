@@ -1,5 +1,5 @@
 var StandardDieCtrl = function($scope, simpleRngFactory) {
-  var currentRoll = 1;
+  $scope.currentRoll = 5;
 
   function GetRandomRoll() {
     return Math.floor(simpleRngFactory.random() * 6) + 1;
@@ -7,11 +7,11 @@ var StandardDieCtrl = function($scope, simpleRngFactory) {
 
   // other dice may override this.
   function GetDisplay() {
-    return currentRoll;
+    return $scope.currentRoll;
   }
 
   $scope.roll = function() {
-    currentRoll = GetRandomRoll();
+    $scope.currentRoll = GetRandomRoll();
   };
 
   $scope.display = GetDisplay;
