@@ -1,0 +1,193 @@
+.game-board {
+  position: relative;
+  list-style: none;
+  height: 440px;
+}
+.game-board > * {
+  position: absolute;
+  background: yellowgreen;
+  border: 1px solid black;
+}
+.game-board > .corner {
+  width: 40px;
+  height: 40px;
+}
+.game-board > .side-1, .game-board > .side-3 {
+  width: 30px;
+  height: 40px;
+}
+.game-board > .side-2, .game-board > .side-4 {
+  width: 40px;
+  height: 30px;
+}
+.game-board > .side-1 {
+  top: 400px;
+}
+.game-board > .side-2 {
+  left: 0;
+}
+.game-board > .side-3 {
+  top: 0;
+}
+.game-board > .side-4 {
+  left: 400px;
+}
+.game-board > .corner.start {
+  top: 400px;
+  left: 400px;
+}
+.game-board > .group-1.prop-1 {
+  left: 370px;
+}
+.game-board > .side-1.treasure-card {
+  left: 340px;
+}
+.game-board > .group-1.prop-2 {
+  left: 310px;
+}
+.game-board > .group-1.prop-3 {
+  left: 280px;
+}
+.game-board > .side-1.income-tax {
+  left: 250px;
+}
+.game-board > .side-1.railroad-property {
+  left: 220px;
+}
+.game-board > .group-2.prop-1 {
+  left: 190px;
+}
+.game-board > .group-2.prop-2 {
+  left: 160px;
+}
+.game-board > .side-1.gamble-card {
+  left: 130px;
+}
+.game-board > .side-1.utility-property {
+  left: 100px;
+}
+.game-board > .group-2.prop-3 {
+  left: 70px;
+}
+.game-board > .group-2.prop-4 {
+  left: 40px;
+}
+.game-board > .corner.visit {
+  top: 400px;
+  left: 0;
+}
+.game-board > .side-2.auction {
+  top: 370px;
+}
+.game-board > .group-3.prop-1 {
+  top: 340px;
+}
+.game-board > .group-3.prop-2 {
+  top: 310px;
+}
+.game-board > .side-2.utility-property {
+  top: 280px;
+}
+.game-board > .group-3.prop-3 {
+  top: 250px;
+}
+.game-board > .group-3.prop-4 {
+  top: 220px;
+}
+.game-board > .side-2.railroad-property {
+  top: 190px;
+}
+.game-board > .group-4.prop-1 {
+  top: 160px;
+}
+.game-board > .side-2.treasure-card {
+  top: 130px;
+}
+.game-board > .group-4.prop-2 {
+  top: 100px;
+}
+.game-board > .group-4.prop-3 {
+  top: 70px;
+}
+.game-board > .group-4.prop-4 {
+  top: 40px;
+}
+.game-board > .corner.rest {
+  left: 0;
+}
+.game-board > .group-5.prop-1 {
+  left: 40px;
+}
+.game-board > .side-3.gamble-card {
+  left: 70px;
+}
+.game-board > .group-5.prop-2 {
+  left: 100px;
+}
+.game-board > .group-5.prop-3 {
+  left: 130px;
+}
+.game-board > .group-5.prop-4 {
+  left: 160px;
+}
+.game-board > .side-3.bus {
+  left: 190px;
+}
+.game-board > .side-3.railroad-property {
+  left: 220px;
+}
+.game-board > .group-6.prop-1 {
+  left: 250px;
+}
+.game-board > .group-6.prop-2 {
+  left: 280px;
+}
+.game-board > .side-3.utility-property {
+  left: 310px;
+}
+.game-board > .group-6.prop-3 {
+  left: 340px;
+}
+.game-board > .group-6.prop-4 {
+  left: 370px;
+}
+.game-board > .corner.punishment {
+  top: 0;
+  left: 400px;
+}
+.game-board > .group-7.prop-1 {
+  top: 40px;
+}
+.game-board > .group-7.prop-2 {
+  top: 70px;
+}
+.game-board > .group-7.prop-3 {
+  top: 100px;
+}
+.game-board > .side-4.treasure-card {
+  top: 130px;
+}
+.game-board > .group-7.prop-4 {
+  top: 160px;
+}
+.game-board > .side-4.railroad-property {
+  top: 190px;
+}
+.game-board > .side-4.gamble-card {
+  top: 220px;
+}
+.game-board > .side-4.birthday {
+  top: 250px;
+}
+.game-board > .group-8.prop-1 {
+  top: 280px;
+}
+.game-board > .group-8.prop-2 {
+  top: 310px;
+}
+.game-board > .side-4.luxury-tax {
+  top: 340px;
+}
+.game-board > .group-8.prop-3 {
+  top: 370px;
+}
