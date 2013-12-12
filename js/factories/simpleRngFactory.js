@@ -11,7 +11,7 @@ function SimpleRngFactory() {
   function random() {
     misc = (36969 * (misc & 65535) + (misc >> 16)) & mask;
     seed = (18000 * (seed & 65535) + (seed >> 16)) & mask;
-    var result = ((m_z << 16) + seed) & mask;
+    var result = ((misc << 16) + seed) & mask;
     result /= 4294967296;
     return result + 0.5;
   }
