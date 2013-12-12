@@ -1,5 +1,3 @@
-var moneyCanaryApp = angular.module('moneyCanaryApp', ['ngRoute']);
-
-moneyCanaryApp.factory('simpleRngFactory', SimpleRngFactory);
+var moneyCanaryApp = angular.module('moneyCanaryApp', ['ngRoute','ngDice']);
 
 moneyCanaryApp.controller('standardDieCtrl', ['$scope', 'simpleRngFactory', StandardDieCtrl]);

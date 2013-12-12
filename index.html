@@ -9,6 +9,7 @@
   <h2>Dice Area</h2>
   <div>
     <ul>
+      <simple-dice ng-model="diceObject"></simple-dice>
       <li data-ng-controller="standardDieCtrl"><span data-ng-bind="display()"></span></li>
       <li>Die 2</li>
       <li>Special Die</li>
@@ -31,9 +32,10 @@
     <li>Treasure Cards</li>
     <li>Fast Travel Cards</li>
   </ul>
-  <script src="js/angular.min.js"></script>
+  <script src="js/angular.js"></script>
   <script src="js/angular-route.min.js"></script>
   <script src="js/factories/simpleRngFactory.js"></script>
+  <script src="js/directives/ngDice.js"></script>
   <script src="js/controllers/standardDieCtrl.js"></script>
   <script src="js/app.js"></script>
 </body>
