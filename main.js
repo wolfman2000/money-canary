@@ -3,7 +3,9 @@ function runApp(readInitialState) {
     id: 'moneyCanaryWindow', 
     bounds: {
       width: 960, 
-      height: 720
+      height: 720,
+      left: 50,
+      top: 50
     } 
   },
   // the create callback gets a reference to the AppWindow obj 
